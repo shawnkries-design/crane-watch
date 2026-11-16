@@ -1,0 +1,13 @@
+{
+  "status": "not_configured",
+  "last_checked": null,
+  "threshold": 500,
+  "radius_km": 25,
+  "peak": false,
+  "largest": 0,
+  "sites": 0,
+  "reports": [],
+  "history": [],
+  "last_alert_at": null,
+  "alerts_enabled": false
+}
