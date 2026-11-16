@@ -1,0 +1,16 @@
+{
+  "name": "Crane Watch Glasgow",
+  "short_name": "Crane Watch",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#102020",
+  "theme_color": "#102b2a",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
