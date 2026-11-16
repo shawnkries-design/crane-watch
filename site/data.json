@@ -1,11 +1,11 @@
 {
-  "last_checked": "2026-11-16T10:49:51.682908+00:00",
+  "last_checked": "2026-11-16T12:36:15.063317+00:00",
   "status": "ok",
   "threshold": 500,
   "radius_km": 25,
   "peak": false,
   "largest": 30,
-  "sites": 3,
+  "sites": 2,
   "reports": [
     {
       "place": "Barren River Lake SRP",
@@ -22,14 +22,6 @@
       "lat": 36.8864831,
       "lng": -86.0959637,
       "id": "S410851716"
-    },
-    {
-      "place": "87 Shoreline Cir, Austin US-KY 36.78386, -86.03395",
-      "count": 10,
-      "date": "2026-11-14 06:01",
-      "lat": 36.783864,
-      "lng": -86.033946,
-      "id": "S410377622"
     }
   ],
   "history": [
@@ -73,6 +65,12 @@
       "time": "2026-11-16T10:49:51.682908+00:00",
       "largest": 30,
       "sites": 3,
+      "peak": false
+    },
+    {
+      "time": "2026-11-16T12:36:15.063317+00:00",
+      "largest": 30,
+      "sites": 2,
       "peak": false
     }
   ],
