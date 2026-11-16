@@ -3,6 +3,12 @@ on:
   schedule:
     - cron: '17 * * * *'
   workflow_dispatch:
+    inputs:
+      send_test_notification:
+        description: 'Send a TEST notification to my iPhone'
+        type: boolean
+        required: false
+        default: false
 permissions:
   contents: write
   pages: write
@@ -21,6 +27,25 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Send test notification (manual runs only)
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.send_test_notification == true }}
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          python - <<'PY'
+          import os, urllib.parse, urllib.request
+          topic = os.environ.get("NTFY_TOPIC", "").strip()
+          if not topic:
+              raise SystemExit("NTFY_TOPIC repository secret is missing")
+          req = urllib.request.Request(
+              "https://ntfy.sh/" + urllib.parse.quote(topic, safe=""),
+              data=b"TEST ONLY: Crane Watch notifications are connected. This is not a real crane activity alert.",
+              method="POST",
+              headers={"Title": "Crane Watch test", "Priority": "default", "Tags": "white_check_mark"},
+          )
+          with urllib.request.urlopen(req, timeout=20) as response:
+              print("Test notification accepted by ntfy (HTTP", response.status, ").")
+          PY
       - name: Retrieve eBird observations and send alerts
         env:
           EBIRD_API_KEY: ${{ secrets.EBIRD_API_KEY }}
