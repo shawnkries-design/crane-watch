@@ -1,13 +1,29 @@
 {
-  "status": "not_configured",
-  "last_checked": null,
+  "last_checked": "2026-11-16T00:22:48.133410+00:00",
+  "status": "ok",
   "threshold": 500,
   "radius_km": 25,
   "peak": false,
-  "largest": 0,
-  "sites": 0,
-  "reports": [],
-  "history": [],
+  "largest": 10,
+  "sites": 1,
+  "reports": [
+    {
+      "place": "87 Shoreline Cir, Austin US-KY 36.78386, -86.03395",
+      "count": 10,
+      "date": "2026-11-14 06:01",
+      "lat": 36.783864,
+      "lng": -86.033946,
+      "id": "S410377622"
+    }
+  ],
+  "history": [
+    {
+      "time": "2026-11-16T00:22:48.133410+00:00",
+      "largest": 10,
+      "sites": 1,
+      "peak": false
+    }
+  ],
   "last_alert_at": null,
   "alerts_enabled": false
 }
