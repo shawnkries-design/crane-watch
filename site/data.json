@@ -1,5 +1,5 @@
 {
-  "last_checked": "2026-11-16T00:22:48.133410+00:00",
+  "last_checked": "2026-11-16T00:35:53.505761+00:00",
   "status": "ok",
   "threshold": 500,
   "radius_km": 25,
@@ -22,8 +22,14 @@
       "largest": 10,
       "sites": 1,
       "peak": false
+    },
+    {
+      "time": "2026-11-16T00:35:53.505761+00:00",
+      "largest": 10,
+      "sites": 1,
+      "peak": false
     }
   ],
   "last_alert_at": null,
-  "alerts_enabled": false
+  "alerts_enabled": true
 }
