@@ -1,20 +1,12 @@
 {
-  "last_checked": "2026-11-17T19:27:27.260416+00:00",
+  "last_checked": "2026-11-17T21:11:59.520060+00:00",
   "status": "ok",
   "threshold": 500,
   "radius_km": 25,
   "peak": false,
-  "largest": 30,
-  "sites": 3,
+  "largest": 20,
+  "sites": 2,
   "reports": [
-    {
-      "place": "Barren River Lake SRP",
-      "count": 30,
-      "date": "2026-11-15 14:43",
-      "lat": 36.86286,
-      "lng": -86.0677977,
-      "id": "S410821401"
-    },
     {
       "place": "Barren River Lake--Bailey's Point",
       "count": 20,
@@ -199,6 +191,12 @@
       "time": "2026-11-17T19:27:27.260416+00:00",
       "largest": 30,
       "sites": 3,
+      "peak": false
+    },
+    {
+      "time": "2026-11-17T21:11:59.520060+00:00",
+      "largest": 20,
+      "sites": 2,
       "peak": false
     }
   ],
