@@ -1,20 +1,12 @@
 {
-  "last_checked": "2026-11-17T21:11:59.520060+00:00",
+  "last_checked": "2026-11-17T22:13:46.901331+00:00",
   "status": "ok",
   "threshold": 500,
   "radius_km": 25,
   "peak": false,
-  "largest": 20,
-  "sites": 2,
+  "largest": 1,
+  "sites": 1,
   "reports": [
-    {
-      "place": "Barren River Lake--Bailey's Point",
-      "count": 20,
-      "date": "2026-11-15 16:02",
-      "lat": 36.8864831,
-      "lng": -86.0959637,
-      "id": "S410851716"
-    },
     {
       "place": "4930 Temple Hill Rd, Summer Shade US-KY 36.84850, -85.79295",
       "count": 1,
@@ -197,6 +189,12 @@
       "time": "2026-11-17T21:11:59.520060+00:00",
       "largest": 20,
       "sites": 2,
+      "peak": false
+    },
+    {
+      "time": "2026-11-17T22:13:46.901331+00:00",
+      "largest": 1,
+      "sites": 1,
       "peak": false
     }
   ],
