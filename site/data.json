@@ -1,21 +1,12 @@
 {
-  "last_checked": "2026-11-18T22:09:40.401592+00:00",
+  "last_checked": "2026-11-18T23:10:10.032121+00:00",
   "status": "ok",
   "threshold": 500,
   "radius_km": 25,
   "peak": false,
-  "largest": 1,
-  "sites": 1,
-  "reports": [
-    {
-      "place": "4930 Temple Hill Rd, Summer Shade US-KY 36.84850, -85.79295",
-      "count": 1,
-      "date": "2026-11-16 16:38",
-      "lat": 36.848502,
-      "lng": -85.792947,
-      "id": "S411065808"
-    }
-  ],
+  "largest": 0,
+  "sites": 0,
+  "reports": [],
   "history": [
     {
       "time": "2026-11-16T00:22:48.133410+00:00",
@@ -291,6 +282,12 @@
       "time": "2026-11-18T22:09:40.401592+00:00",
       "largest": 1,
       "sites": 1,
+      "peak": false
+    },
+    {
+      "time": "2026-11-18T23:10:10.032121+00:00",
+      "largest": 0,
+      "sites": 0,
       "peak": false
     }
   ],
