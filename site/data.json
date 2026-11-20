@@ -1,15 +1,15 @@
 {
-  "last_checked": "2026-11-19T23:59:35.023238+00:00",
+  "last_checked": "2026-11-20T01:30:33.426878+00:00",
   "status": "ok",
   "threshold": 500,
   "radius_km": 25,
   "peak": false,
-  "largest": 18,
+  "largest": 5,
   "sites": 1,
   "reports": [
     {
       "place": "Barren River Lake--Beaver Creek Rec. Area",
-      "count": 18,
+      "count": 5,
       "date": "2026-11-18 15:45",
       "lat": 36.9287604,
       "lng": -86.0282492,
@@ -392,6 +392,12 @@
     {
       "time": "2026-11-19T23:59:35.023238+00:00",
       "largest": 18,
+      "sites": 1,
+      "peak": false
+    },
+    {
+      "time": "2026-11-20T01:30:33.426878+00:00",
+      "largest": 5,
       "sites": 1,
       "peak": false
     }
