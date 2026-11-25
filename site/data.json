@@ -1,12 +1,21 @@
 {
-  "last_checked": "2026-11-25T00:03:39.668393+00:00",
+  "last_checked": "2026-11-25T01:43:58.121334+00:00",
   "status": "ok",
   "threshold": 500,
   "radius_km": 25,
   "peak": false,
-  "largest": 0,
-  "sites": 0,
-  "reports": [],
+  "largest": 42,
+  "sites": 1,
+  "reports": [
+    {
+      "place": "Mahoney Farm",
+      "count": 42,
+      "date": "2026-11-24 14:31",
+      "lat": 36.847842,
+      "lng": -86.272977,
+      "id": "S412949376"
+    }
+  ],
   "history": [
     {
       "time": "2026-11-16T00:22:48.133410+00:00",
@@ -894,6 +903,12 @@
       "time": "2026-11-25T00:03:39.668393+00:00",
       "largest": 0,
       "sites": 0,
+      "peak": false
+    },
+    {
+      "time": "2026-11-25T01:43:58.121334+00:00",
+      "largest": 42,
+      "sites": 1,
       "peak": false
     }
   ],
