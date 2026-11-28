@@ -1,6 +1,6 @@
 {
-  "last_checked": "2026-11-28T01:40:39.915347+00:00",
-  "status": "error",
+  "last_checked": "2026-11-28T03:14:10.333096+00:00",
+  "status": "ok",
   "threshold": 500,
   "radius_km": 25,
   "peak": false,
@@ -1135,9 +1135,14 @@
       "largest": 0,
       "sites": 0,
       "peak": false
+    },
+    {
+      "time": "2026-11-28T03:14:10.333096+00:00",
+      "largest": 0,
+      "sites": 0,
+      "peak": false
     }
   ],
   "last_alert_at": null,
-  "alerts_enabled": true,
-  "error": "The read operation timed out"
+  "alerts_enabled": true
 }
